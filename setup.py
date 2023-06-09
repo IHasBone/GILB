@@ -9,9 +9,9 @@ classifiers = [
 ]
 
 setup(
-    name='GILB',
+    name='GILBypass',
     version='0.1.0',
-    description='GILB is a module that allows you to bypass the Global Interpreter Lock (GIL) in Python.',
+    description='GILBypass (GILB) is a module that allows you to bypass the Global Interpreter Lock (GIL) in Python.',
     long_description_content_type='text/markdown',
     long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
     url='https://github.com/IHasBone/GILB',

@@ -1,9 +1,9 @@
-*GILB* is a python package that allows you to bypass the Global Interpreter Lock (GIL) in Python. GILB stands for Global Interpreter Lock Bypass. The GIL makes it so that only one thread can run at a time. This is a problem for programs that are CPU bound, because they can't use multiple cores. GILB allows you to bypass the GIL and use multiple cores.
+*GILBypass* (GILB) is a python package that allows you to bypass the Global Interpreter Lock (GIL) in Python. GILB stands for Global Interpreter Lock Bypass. The GIL makes it so that only one thread can run at a time. This is a problem for programs that are CPU bound, because they can't use multiple cores. GILB allows you to bypass the GIL and use multiple cores.
 
 Installation:
 -
 ```shell
-pip install GILB
+pip install GILBypass
 ```
 
 Import as:
